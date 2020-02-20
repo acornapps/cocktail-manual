@@ -63,6 +63,10 @@ docs:
           url: /docs/ko/2.2.7/
         - title: "기본 스토리지 지정"
           url: /docs/ko/2.2.8/
+        - title: "애드온"
+          url: /docs/ko/2.2.9/
+        - title: "애드온 관리"
+          url: /docs/ko/2.2.10/
     - title: "워크스페이스"
       url: /docs/ko/2.3/
       children:
@@ -144,10 +148,19 @@ docs:
               url: /docs/ko/4.6.2.2/
             - title: "시크릿 삭제"
               url: /docs/ko/4.6.2.3/
-    - title: "서비스"
+        - title: "네트워크"
+          url: /docs/ko/4.6.3/
+          children:
+            - title: "네트워크 추가"
+              url: /docs/ko/4.6.3.1/
+            - title: "네트워크 수정"
+              url: /docs/ko/4.6.3.2/
+            - title: "네트워크 삭제"
+              url: /docs/ko/4.6.3.3/
+    - title: "서비스 노출"
       url: /docs/ko/4.7/
       children:
-        - title: "서비스 설정"
+        - title: "서비스 노출 설정"
           url: /docs/ko/4.7.1/
         - title: "인그레스 설정"
           url: /docs/ko/4.7.2/
@@ -188,7 +201,7 @@ docs:
     children:
       - title: "클러스터 목록"
         url: /docs/ko/7.1/
-      - title: "리소스"
+      - title: "자원현황"
         url: /docs/ko/7.2/
       - title: "서비스"
         url: /docs/ko/7.3/
@@ -197,6 +210,10 @@ docs:
         children:
           - title: "알림 목록"
             url: /docs/ko/7.4.1/
+      - title: "서비스 노출"
+        url: /docs/ko/7.5/
+      - title: "스토리지 볼륨"
+        url: /docs/ko/7.6/
   - title: "시스템 운영"
     url: /docs/ko/8/
     children:
@@ -219,6 +236,8 @@ docs:
             url: /docs/ko/8.1.7/
           - title: "NFS HA(High Availability) 구성"
             url: /docs/ko/8.1.8/
+          - title: "EKS nlb를 이용한 ingress 구성"
+            url: /docs/ko/8.1.9/
       - title: "클러스터 직접 구성 with Cube"
         url: /docs/ko/8.2/
         children:
@@ -240,6 +259,8 @@ docs:
             url: /docs/ko/8.2.8/
           - title: "CUBE 클러스터 타입"
             url: /docs/ko/8.2.9/
+          - title: "CUBE TOML 필드 정의"
+            url: /docs/ko/8.2.10/
       - title: "Cube CLI"
         url: /docs/ko/8.3/
         children:
@@ -249,28 +270,24 @@ docs:
             url: /docs/ko/8.3.2/
           - title: "status"
             url: /docs/ko/8.3.3/
-          - title: "login"
-            url: /docs/ko/8.3.4/
-          - title: "logout"
-            url: /docs/ko/8.3.5/
-          - title: "cluster register"
-            url: /docs/ko/8.3.6/
-          - title: "cluster list"
-            url: /docs/ko/8.3.7/
-          - title: "cluster resize"
-            url: /docs/ko/8.3.8/
-          - title: "cluster upgrade"
-            url: /docs/ko/8.3.9/
-          - title: "cluster get-config"
-            url: /docs/ko/8.3.10/
-          - title: "cluster delete"
-            url: /docs/ko/8.3.11/
-          - title: "cluster set-addon"
-            url: /docs/ko/8.3.12/
-          - title: "cluster del-addon"
-            url: /docs/ko/8.3.13/
           - title: "destroy"
-            url: /docs/ko/8.3.14/
+            url: /docs/ko/8.3.4/
+          - title: "login"
+            url: /docs/ko/8.3.5/
+          - title: "logout"
+            url: /docs/ko/8.3.6/
+          - title: "cluster-list"
+            url: /docs/ko/8.3.7/
+          - title: "cluster-register"
+            url: /docs/ko/8.3.8/
+          - title: "cluster-delete"
+            url: /docs/ko/8.3.9/
+          - title: "apply"
+            url: /docs/ko/8.3.10/
+          - title: "export-config"
+            url: /docs/ko/8.3.11/
+          - title: "설치 오류발생시 해결방법"
+            url: /docs/ko/8.3.12/
       - title: "운영 가이드"
         url: /docs/ko/8.4/
         children:
@@ -380,6 +397,10 @@ en:
           url: /docs/en/2.2.7/
         - title: "Specifying Default Storage"
           url: /docs/en/2.2.8/
+        - title: "Addon"
+          url: /docs/en/2.2.9/
+        - title: "Addon Managed"
+          url: /docs/en/2.2.10/
     - title: "Workspace"
       url: /docs/en/2.3/
       children:
@@ -461,10 +482,19 @@ en:
               url: /docs/en/4.6.2.2/
             - title: "Delete Secret"
               url: /docs/en/4.6.2.3/
-    - title: "Service"
+        - title: "Network"
+          url: /docs/en/4.6.3/
+          children:
+            - title: "Add Network"
+              url: /docs/en/4.6.3.1/
+            - title: "Edit Network"
+              url: /docs/en/4.6.3.2/
+            - title: "Delete Network"
+              url: /docs/en/4.6.3.3/
+    - title: "Service exposure"
       url: /docs/en/4.7/
       children:
-        - title: "Service settings"
+        - title: "Service exposure settings"
           url: /docs/en/4.7.1/
         - title: "Ingress settings"
           url: /docs/en/4.7.2/
@@ -505,7 +535,7 @@ en:
     children:
       - title: "Cluster Management"
         url: /docs/en/7.1/
-      - title: "Resource"
+      - title: "Resource Status"
         url: /docs/en/7.2/
       - title: "Service"
         url: /docs/en/7.3/
@@ -514,6 +544,10 @@ en:
         children:
           - title: "Alerts List"
             url: /docs/en/7.4.1/
+      - title: "Service exposure"
+        url: /docs/en/7.5/
+      - title: "Storage volume"
+        url: /docs/en/7.6/
   - title: "Member"
     url: /docs/en/8/
   - title: "Glossary"
@@ -710,7 +744,7 @@ zh:
     children:
       - title: "클러스터 목록"
         url: /docs/zh/7.1/
-      - title: "리소스"
+      - title: "자원현황"
         url: /docs/zh/7.2/
       - title: "서비스"
         url: /docs/zh/7.3/
@@ -760,6 +794,8 @@ zh:
             url: /docs/zh/8.2.8/
           - title: "CUBE 클러스터 타입"
             url: /docs/zh/8.2.9/
+          - title: "CUBE TOML 필드 정의"
+            url: /docs/zh/8.2.10/
       - title: "Cube CLI"
         url: /docs/zh/8.3/
         children:
@@ -769,28 +805,22 @@ zh:
             url: /docs/zh/8.3.2/
           - title: "status"
             url: /docs/zh/8.3.3/
-          - title: "login"
-            url: /docs/zh/8.3.4/
-          - title: "logout"
-            url: /docs/zh/8.3.5/
-          - title: "cluster register"
-            url: /docs/zh/8.3.6/
-          - title: "cluster list"
-            url: /docs/zh/8.3.7/
-          - title: "cluster resize"
-            url: /docs/zh/8.3.8/
-          - title: "cluster upgrade"
-            url: /docs/zh/8.3.9/
-          - title: "cluster get-config"
-            url: /docs/zh/8.3.10/
-          - title: "cluster delete"
-            url: /docs/zh/8.3.11/
-          - title: "cluster set-addon"
-            url: /docs/zh/8.3.12/
-          - title: "cluster del-addon"
-            url: /docs/zh/8.3.13/
           - title: "destroy"
-            url: /docs/zh/8.3.14/
+            url: /docs/zh/8.3.4/
+          - title: "login"
+            url: /docs/zh/8.3.5/
+          - title: "logout"
+            url: /docs/zh/8.3.6/
+          - title: "cluster-list"
+            url: /docs/zh/8.3.7/
+          - title: "cluster-register"
+            url: /docs/zh/8.3.8/
+          - title: "cluster-delete"
+            url: /docs/zh/8.3.9/
+          - title: "apply"
+            url: /docs/zh/8.3.10/
+          - title: "export-config"
+            url: /docs/zh/8.3.11/
       - title: "운영 가이드"
         url: /docs/zh/8.4/
         children:
@@ -1064,6 +1094,10 @@ ja:
           url: /docs/ja/2.2.7/
         - title: "デフォルトストレージの指定"
           url: /docs/ja/2.2.8/
+        - title: "Add-on"
+          url: /docs/ja/2.2.9/
+        - title: "Add-on 管理"
+          url: /docs/ja/2.2.10/
     - title: "ワークスペース"
       url: /docs/ja/2.3/
       children:
@@ -1145,6 +1179,15 @@ ja:
               url: /docs/ja/4.6.2.2/
             - title: "Secretの削除"
               url: /docs/ja/4.6.2.3/
+        - title: "ネットワーク"
+          url: /docs/ja/4.6.3/
+          children:
+            - title: "ネットワークの追加"
+              url: /docs/ja/4.6.3.1/
+            - title: "ネットワークの変更"
+              url: /docs/ja/4.6.3.2/
+            - title: "ネットワークの削除"
+              url: /docs/ja/4.6.3.3/
     - title: "サービス公開"
       url: /docs/ja/4.7/
       children:
@@ -1189,7 +1232,7 @@ ja:
     children:
       - title: "クラスターの照会"
         url: /docs/ja/7.1/
-      - title: "ノード"
+      - title: "リソース状況"
         url: /docs/ja/7.2/
       - title: "アプリケーション"
         url: /docs/ja/7.3/
@@ -1198,6 +1241,10 @@ ja:
         children:
           - title: "アラートリスト"
             url: /docs/ja/7.4.1/
+      - title: "サービス公開"
+        url: /docs/ja/7.5/
+      - title: "ストレージボリューム"
+        url: /docs/ja/7.6/
   - title: "システム運用"
     url: /docs/ja/8/
     children:
@@ -1250,28 +1297,22 @@ ja:
           url: /docs/ja/8.3.2/
         - title: "status"
           url: /docs/ja/8.3.3/
-        - title: "login"
-          url: /docs/ja/8.3.4/
-        - title: "logout"
-          url: /docs/ja/8.3.5/
-        - title: "cluster register"
-          url: /docs/ja/8.3.6/
-        - title: "cluster list"
-          url: /docs/ja/8.3.7/
-        - title: "cluster resize"
-          url: /docs/ja/8.3.8/
-        - title: "cluster upgrade"
-          url: /docs/ja/8.3.9/
-        - title: "cluster get-config"
-          url: /docs/ja/8.3.10/
-        - title: "cluster delete"
-          url: /docs/ja/8.3.11/
-        - title: "cluster set-addon"
-          url: /docs/ja/8.3.12/
-        - title: "cluster del-addon"
-          url: /docs/ja/8.3.13/
         - title: "destroy"
-          url: /docs/ja/8.3.14/
+          url: /docs/ja/8.3.4/
+        - title: "login"
+          url: /docs/ja/8.3.5/
+        - title: "logout"
+          url: /docs/ja/8.3.6/
+        - title: "cluster-list"
+          url: /docs/ja/8.3.7/
+        - title: "cluster-register"
+          url: /docs/ja/8.3.8/
+        - title: "cluster-delete"
+          url: /docs/ja/8.3.9/
+        - title: "apply"
+          url: /docs/ja/8.3.10/
+        - title: "export-config"
+          url: /docs/ja/8.3.11/
       - title: "運用ガイド"
         url: /docs/ja/8.4/
         children:
